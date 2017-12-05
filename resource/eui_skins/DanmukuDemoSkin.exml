@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DanmukuDemoSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" alpha="0.7" source="header_png" width="100%" height="100%"/>
+	<e:Label text="弹幕自定义简易版" x="60" y="457"/>
+	<e:Label text="文字" x="28" y="539"/>
+	<e:EditableText id="_Txt" width="164" height="36" text="弹幕文字" x="135" y="532" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:Label text="颜色" x="31" y="600"/>
+	<e:Label text="字号" x="28" y="661"/>
+	<e:Label text="速度" x="23" y="723"/>
+   <e:HSlider id="_Color" width="485" height="34" x="135" y="598"  />
+    <e:HSlider id="_Speed" width="146" height="34" x="133" y="720" minimum="0.06" pendingValue="0.01"/>
+	<e:Button id="_SendBtn" label="发送" x="45" y="793"/>
+	<e:Button id="_ClearBtn" label="清除" x="184" y="790.66"/>
+	<e:Button id="_ResumeBtn" label="继续" x="184.32" y="863"/>
+	<e:HSlider id="_Size" width="146" height="34" x="135" y="657"  />
+	<e:Group id="_DanmukuGroup" width="100%" height="374.67" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Rect width="100%" height="372" x="0" y="0"/>
+	</e:Group>
+</e:Skin>
